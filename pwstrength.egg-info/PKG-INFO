@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: pwstrength
+Version: 0.1.0
+Summary: Password Strength Meter - CLI that estimates entropy and flags patterns.
+Author: You
+Requires-Python: >=3.9

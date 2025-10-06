@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pwstrength"
+version = "0.1.0"
+requires-python = ">=3.9"
+description = "Password Strength Meter - CLI that estimates entropy and flags patterns."
+authors = [{name="You"}]
+
+[project.scripts]
+pwstrength = "pwstrength.cli:main"
